@@ -1,0 +1,65 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img{
+  height: 350px;
+  display: block;
+  margin: auto;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding-right: 0;
+  margin:auto;
+}
+.filmBloc{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  text-align: center;
+  box-shadow:3px 3px #888888;
+}
+.title{
+  text-align: center;
+  font-size: x-large;
+
+}
+.ratingBloc{
+  display: flex;
+  justify-content: center;
+}
+span{
+  font-size:medium;
+  font-weight: normal;
+}
+.addBtn{
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+input{
+  width:30%;
+  height: 35px;
+}
+.searchBloc{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content:start;
+  gap:15px;
+}
+.searchBtn{
+  margin-left: 10px;
+}
+
+.input{
+  margin-top: 7px;
+}
